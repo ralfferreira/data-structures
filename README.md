@@ -25,18 +25,18 @@ This repository is designed as a study resource for students and developers who 
 The repository includes implementations of the following data structures:
 
 - Arrays
-- Linked Lists (Singly and Doubly)
+- Linked Lists
 - Stacks
 - Queues
-- Trees (Binary Trees, BST, AVL Trees)
+- Trees
 - Graphs
 - Hash Tables
-- Heaps (Min Heap, Max Heap)
+- Heaps
 
 ## Technologies Used
 
 - **Python 3**
-- **C++ (C++11 and above)**
+- **C++ (C++17)**
 
 ## Installation
 
