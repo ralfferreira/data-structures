@@ -64,6 +64,15 @@ Each data structure has a dedicated directory containing:
 - Example usage
 - Performance comparisons (when applicable)
 
+## Testing
+
+Each data structure implementation comes with a test input file (e.g., `teste_input.txt`) that contains a sequence of operations to test all functionalities. To use these test files:
+
+1. Compile the program as shown in the Installation section
+2. Run the program
+3. When the program starts, simply copy all the content from the test file and paste it into the program's input
+4. The program will automatically process all test cases
+
 ## Contributing
 
 Contributions are welcome! If you wish to add a new data structure, optimize existing implementations, or improve documentation, feel free to submit a pull request.
