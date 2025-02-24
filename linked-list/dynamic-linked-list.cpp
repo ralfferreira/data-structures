@@ -42,10 +42,10 @@ private:
     }
 
 public:
-    // Criação da lista vazia
+    // lista vazia
     LinkedList() : head(nullptr), size(0) {}
     
-    // Destrutor
+    // destructor
     ~LinkedList() {
         Node* current = head;
         while (current != nullptr) {
@@ -55,27 +55,27 @@ public:
         }
     }
     
-    // Verificar se está vazia
+    // verifica se está vazia
     bool isEmpty() const {
         return size == 0;
     }
     
-    // Obter tamanho
+    // tamanho
     int getSize() const {
         return size;
     }
     
-    // Obter valor de uma posição
+    // valor de uma posição
     int getValue(int position) const {
         return getNodeAt(position)->data;
     }
     
-    // Modificar valor de uma posição
+    // modificando valor de uma posição
     void setValue(int position, int value) {
         getNodeAt(position)->data = value;
     }
     
-    // Inserir elemento
+    // add elemento
     void insert(int position, int value) {
         if (position < 1 || position > size + 1) {
             throw std::out_of_range("Posicao invalida para insercao");
@@ -95,7 +95,7 @@ public:
         size++;
     }
     
-    // Remover elemento
+    // delete elemento
     int remove(int position) {
         if (isEmpty()) {
             throw std::runtime_error("Lista vazia");
@@ -124,7 +124,7 @@ public:
         return removedValue;
     }
     
-    // Imprimir lista
+    //  print da lista
     void print() const {
         std::cout << "Lista: [";
         Node* current = head;
