@@ -33,3 +33,7 @@
 *.app
 
 __pycache__
+
+pcv10.txt
+pcv50.txt
+pcv177.txt
